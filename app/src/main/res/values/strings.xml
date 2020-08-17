@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Two TouchMail</string>
+    <string name="button_pickup">むかえにきてください</string>
+    <string name="button_no_dinner">夕飯はいりません</string>
+    <string name="button_send">送信</string>
+    <string name="subject">件名</string>
+    <string name="place">場所</string>
+    <string name="station">駅</string>
+    <string name="company">会社</string>
+    <string name="school">学校</string>
+    <string name="mail_to">sideshowkiti@gmail.com</string>
 </resources>
