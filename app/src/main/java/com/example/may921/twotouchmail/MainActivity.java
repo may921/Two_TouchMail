@@ -18,11 +18,13 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(MainActivity.this, PickUpActivity.class);
-                startActivity(intent);
-            }
-        });
+                    Intent intent =
+                            new Intent(MainActivity.this,
+                                    PickUpActivity.class);
+                    startActivity(intent);
 
+                }
+            });
         Button btnNoDinner = (Button) this.findViewById(R.id.button2);
         btnNoDinner.setOnClickListener(new View.OnClickListener(){
             @Override

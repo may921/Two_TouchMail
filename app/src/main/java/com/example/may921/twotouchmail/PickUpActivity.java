@@ -1,7 +1,5 @@
 package com.example.may921.twotouchmail;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.content.res.Resources;
 import android.net.Uri;
@@ -12,13 +10,15 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 public class PickUpActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pick_up);
-        Button btnSend = (Button) this.findViewById(R.id.bottom);
+        Button btnSend = (Button) this.findViewById(R.id.button);
 
         btnSend.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -29,7 +29,7 @@ public class PickUpActivity extends AppCompatActivity {
                 EditText edit01 = (EditText) findViewById(R.id.editText);
                 String title = edit01.getText().toString();
                 Resources res = getResources();
-                Uri uri = Uri.parse("mailto:" + res.getString(R.string.mail_to).toString());
+                Uri uri = Uri.parse("mailto:" + res.getString(R.string.mail_to));
 
                 Intent intent = new Intent(Intent.ACTION_SENDTO,uri);
                 intent.putExtra(Intent.EXTRA_SUBJECT,title);
