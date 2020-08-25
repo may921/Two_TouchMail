@@ -33,7 +33,7 @@ public class PickUpActivity extends AppCompatActivity {
 
                 Intent intent = new Intent(Intent.ACTION_SENDTO,uri);
                 intent.putExtra(Intent.EXTRA_SUBJECT,title);
-                intent.putExtra(Intent.EXTRA_TEXT,strPlace + "迎えに来て");
+                intent.putExtra(Intent.EXTRA_TEXT,strPlace + "に迎えに来て");
                 startActivity(intent);
 
             }
