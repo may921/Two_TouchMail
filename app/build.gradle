@@ -5,7 +5,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "com.example.may921.twotouchmail"
+        applicationId "com.may0921.may921.twotouchmail"
         minSdkVersion 16
         targetSdkVersion 30
         versionCode 1

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.may921.twotouchmail">
+    package="com.may0921.may921.twotouchmail">
 
     <application
         android:allowBackup="true"
@@ -9,9 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".NoDinnerActivity"></activity>
-        <activity android:name=".PickUpActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.may0921.may921.twotouchmail.NoDinnerActivity"></activity>
+        <activity android:name="com.may0921.may921.twotouchmail.PickUpActivity" />
+        <activity android:name="com.may0921.may921.twotouchmail.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

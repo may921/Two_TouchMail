@@ -1,4 +1,4 @@
-package com.example.may921.twotouchmail;
+package com.may0921.may921.twotouchmail;
 
 import android.content.Intent;
 import android.content.res.Resources;
