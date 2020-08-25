@@ -12,14 +12,15 @@
 
     tools:context=".MainActivity">
 
+
     <Button
+        android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/button_pickup"
-        android:id="@+id/button1"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
-
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:text="@string/button_pickup" />
 
     <Button
         android:id="@+id/button2"
@@ -27,8 +28,19 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/button1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="108dp"
         android:text="@string/button_no_dinner" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:autoLink="web"
+        android:text="privacy policy URL:
+https://github.com/may921/Privacy-policy/blob/master/PrivacyPolicy.md"
+        android:textSize="10sp" />
 
 
 </RelativeLayout>
